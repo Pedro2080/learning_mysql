@@ -15,3 +15,4 @@
 13. Indexing for High Performance
 14. Securing Databases
 
+The databases and stored_procedures files are on Others file.
