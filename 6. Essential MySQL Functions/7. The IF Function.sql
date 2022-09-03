@@ -1,5 +1,5 @@
 -- If the order belongs to this year returns 'Active' otherwise 'Archived'
-USE sql_store;
+USE store;
 
 SELECT 
 	order_id, 
@@ -12,7 +12,7 @@ SELECT
 FROM orders;
 
 -- EXERCISE: Write a query to return the table below. If a product has been ordered only one time display "once" otherwise "frequency"
-USE sql_store;
+USE store;
 
 SELECT 
 	product_id,
